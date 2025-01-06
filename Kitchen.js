@@ -55,17 +55,17 @@ class Kitchen {
 }
 
 // Specialized Class for Dessert Preparation (Inheritance)
-class DessertKitchen extends Kitchen {
-    constructor(params) {
-        super(params); // Call the parent class constructor
-    }
+// class DessertKitchen extends Kitchen {
+//     constructor(params) {
+//         super(params); // Call the parent class constructor
+//     }
 
-    // Overriding the cookDish method (Polymorphism)
-    cookDish() {
-        console.log(`Preparing the dessert: "${this.order}" using ${this.extraRequirements.join(", ")}`);
-        this.preparedDish = this.order;
-    }
-}
+//     // Overriding the cookDish method (Polymorphism)
+//     cookDish() {
+//         console.log(`Preparing the dessert: "${this.order}" using ${this.extraRequirements.join(", ")}`);
+//         this.preparedDish = this.order;
+//     }
+// }
 
 // Helper function to demonstrate abstraction
 function cookMeal() {
